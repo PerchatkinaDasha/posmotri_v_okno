@@ -184,6 +184,8 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   margin-bottom: 5px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: normal;
 }
 
 .search-form__label-text {
@@ -243,12 +245,10 @@ ol {
   width: 100%;
 }
 
-.content__video-card-description-container:hover {
+.content__card-link:hover {
   text-decoration: underline;
-  text-underline-offset: 4px;
-  object-fit: cover;
-  object-position: center;
-}
+  text-underline-offset: 1px;
+} 
 
 .search-form__textfield {
   width: 225px;
